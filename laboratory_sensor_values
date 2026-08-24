@@ -1,0 +1,6 @@
+'''
+A laboratory sensor records measurements in a string format that includes a numeric value followed by a comment, such as '15.6 # initial_temp'. Write a program that reads one line of input, extracts the numeric portion before the '#' symbol, and converts it to a float. Multiply this value by 5 and output the final result as a truncated integer. Input Format: A single string containing a number and a comment separated by #. Output Format: An integer.
+'''
+num,st = input().split('#')
+num = float(num)
+print(int(num*5))
