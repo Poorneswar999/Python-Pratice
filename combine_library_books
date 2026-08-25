@@ -1,0 +1,9 @@
+'''
+A librarian is merging two separate bookshelves into a single list of book IDs. Read two lists of integers (each on a new line) and a target index. Combine the two lists using concatenation and print the total number of books in the merged list, followed by the ID at the specified index. Input Format: Two lines of space-separated integers followed by one integer for the index. Output Format: The length of the combined list on the first line and the element at the index on the second line.
+'''
+l1=list(map(int,input().split()))
+l2=list(map(int,input().split()))
+i=int(input())
+l=l1+l2
+print("Total books:",len(l))
+print("Index of the book:",l[i])
