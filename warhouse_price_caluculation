@@ -1,5 +1,6 @@
 '''
-A warehouse system receives item data as strings from a scanner. Your task is to read a decimal price and a whole number quantity from the input. Convert the price to a float and the quantity to an int, calculate the total cost, and print the result as a truncated integer. Input Format: The first line contains a string for price and the second line contains a string for quantity. Output Format: Print the integer part of the total cost.
+A warehouse system receives item data as strings from a scanner.
+Your task is to read a decimal price and a whole number quantity from the input. Convert the price to a float and the quantity to an int, calculate the total cost, and print the result as a truncated integer. Input Format: The first line contains a string for price and the second line contains a string for quantity. Output Format: Print the integer part of the total cost.
 '''
 
 price = float(input("Enter the price: "))
