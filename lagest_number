@@ -1,6 +1,5 @@
 '''
 Given three numbers a, b and c. Find the greatest number among them.
-
 Input: a = 10, b = 3, c = 2
 Output: 10
 '''
